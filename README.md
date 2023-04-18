@@ -22,10 +22,17 @@ https://github.com/Pumtrix-Tech/fnm-webui/wiki/Screenshots
 To run the WebUI, you'll need either a [LEMP](https://www.howtoforge.com/tutorial/ubuntu-laravel-php-nginx/) or [LAMP](https://medium.com/@lazycoding/how-to-install-lamp-php-7-and-laravel-5-5-from-scratch-on-ubuntu-16-04-lts-c99949e4319c) stack server with appropriate Laravel rewrite rules in place.
 
 - Apache or NGINX
-- PHP 8.0
+- PHP 8.1
 - MySQL 5.6+ / MariaDB 10.0+
 - Redis 3.2+
 - Postfix / Sendmail
+
+| Tag | Laravel Version | Required PHP |
+| ------ | ------------------------ | ----------------------- |
+| latest | 10.x | 8.1 - 8.2 |
+| 3.x | 10.x | 8.1 - 8.2 |
+| 2.x | 9.x | 8.0 - 8.2 |
+| 1.x | 8.x | 7.3 - 8.1 |
 
 This could also probably be run within a shared hosting environment if you so wish.
 
