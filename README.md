@@ -11,6 +11,12 @@ This project builds on top of the [Fastnetmon API](https://fastnetmon.com/fastne
 
 The WebUI is written in PHP 8, using the Laravel framework.
 
+## Docker
+
+Running the FNM WebUI via docker is possible using the pre-built docker images that we provide.
+
+Instructions for using them can be found within the [FNM WebUI Docker repo](https://github.com/Pumtrix-Tech/fnm-webui-docker/).
+
 ## Demo
 
 We don't have a demo hosted of this application, but some screenshots are available on the wiki:
